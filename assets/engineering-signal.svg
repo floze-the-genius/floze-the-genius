@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1160" height="420" viewBox="0 0 1160 420" role="img" aria-labelledby="title desc">
+  <title id="title">Floze engineering signal</title>
+  <desc id="desc">88 upstream merges, 283 stars across maintained tools, and 542 public contributions in the last twelve months.</desc>
+  <style>
+    .eyebrow { fill: #58a6ff; font: 700 14px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; letter-spacing: 1px; }
+    .headline { fill: #f0f6fc; font: 700 26px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+    .value { fill: #f0f6fc; font: 700 48px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+    .label { fill: #3fb950; font: 700 14px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+    .detail { fill: #8b949e; font: 15px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+    .method { fill: #c9d1d9; font: 600 15px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+  </style>
+  <rect width="1160" height="420" rx="8" fill="#0d1117"/>
+  <rect x="1" y="1" width="1158" height="418" rx="7" fill="none" stroke="#30363d" stroke-width="2"/>
+  <path d="M56 44h132" stroke="#2f81f7" stroke-width="4"/>
+  <path d="M188 44h56" stroke="#3fb950" stroke-width="4"/>
+  <text class="eyebrow" x="56" y="77">ENGINEERING SIGNAL</text>
+  <text class="headline" x="56" y="124">Public evidence of maintainer-grade execution</text>
+  <text class="value" x="56" y="205">88</text>
+  <text class="label" x="56" y="248">UPSTREAM MERGES</text>
+  <text class="detail" x="56" y="278">public external pull requests</text>
+  <text class="value" x="424" y="205">283</text>
+  <text class="label" x="424" y="248">TOOL STARS</text>
+  <text class="detail" x="424" y="278">across maintained OpenCode tools</text>
+  <text class="value" x="792" y="205">542</text>
+  <text class="label" x="792" y="248">PUBLIC CONTRIBUTIONS</text>
+  <text class="detail" x="792" y="278">trailing twelve months</text>
+  <path d="M56 315h1048" stroke="#30363d"/>
+  <text class="method" x="56" y="358">TRACE  →  REPRODUCE  →  TEST  →  SHIP  →  OWN</text>
+  <text class="detail" x="56" y="392">Compiler/runtime · APIs · storage · Kubernetes · CLI safety · CI and production recovery</text>
+</svg>

@@ -20,6 +20,7 @@ USERNAME = "floze-the-genius"
 ROOT = Path(__file__).resolve().parent.parent
 TEMPLATE = ROOT / "README.template.md"
 OUTPUT = ROOT / "README.md"
+SIGNAL_OUTPUT = ROOT / "assets" / "engineering-signal.svg"
 
 EXCLUDED_OWNERS = {
     "edgegift",
@@ -39,58 +40,17 @@ MAINTAINED_REPOSITORIES = [
 
 PROJECT_DESCRIPTIONS = {
     "floze-the-genius/opencode-multi-auth-codex": (
-        "Account routing, session controls, dashboard, and reliability tooling "
-        "for Codex OAuth in OpenCode."
+        "A reliability layer for Codex OAuth in OpenCode: account routing, "
+        "session controls, dashboard, and operational tooling."
     ),
     "floze-the-genius/opencode-tps-meter": (
-        "Live streaming and final output-token throughput for the OpenCode TUI."
+        "Makes coding-agent throughput observable with live streaming and final "
+        "output-token measurements in the OpenCode TUI."
     ),
     "floze-the-genius/opencode-status-signals": (
-        "Session-state feedback through OpenCode's native theme system."
+        "Turns hidden agent state into immediate visual feedback through "
+        "OpenCode's native theme system."
     ),
-}
-
-CARD_CANDIDATES = {
-    "PROFILE_CARD_URL": [
-        (
-            "https://github-profile-summary-cards.vercel.app/api/cards/"
-            f"profile-details?username={USERNAME}&theme=github_dark"
-        ),
-        (
-            "https://github-readme-activity-graph.vercel.app/graph"
-            f"?username={USERNAME}&theme=github-compact&hide_border=true&area=true"
-        ),
-    ],
-    "STREAK_CARD_URL": [
-        (
-            "https://streak-stats.demolab.com/"
-            f"?user={USERNAME}&theme=github-dark-blue&hide_border=true"
-        ),
-        (
-            "https://github-profile-summary-cards.vercel.app/api/cards/stats"
-            f"?username={USERNAME}&theme=github_dark"
-        ),
-    ],
-    "LANGUAGES_CARD_URL": [
-        (
-            "https://github-profile-summary-cards.vercel.app/api/cards/"
-            f"repos-per-language?username={USERNAME}&theme=github_dark"
-        ),
-        (
-            "https://github-readme-stats-one-bice.vercel.app/api/top-langs/"
-            f"?username={USERNAME}&layout=compact&theme=github_dark&hide_border=true"
-        ),
-    ],
-    "ACTIVITY_CARD_URL": [
-        (
-            "https://github-readme-activity-graph.vercel.app/graph"
-            f"?username={USERNAME}&theme=github-compact&hide_border=true&area=true"
-        ),
-        (
-            "https://github-profile-summary-cards.vercel.app/api/cards/"
-            f"profile-details?username={USERNAME}&theme=github_dark"
-        ),
-    ],
 }
 
 MAX_SEARCH_PAGES = 10
@@ -308,41 +268,51 @@ def format_recent_merges(merged: list[dict[str, Any]]) -> str:
     return "\n".join(lines)
 
 
-def looks_like_svg(body: bytes, content_type: str) -> bool:
-    head = body.lstrip()[:250].lower()
-    return (
-        len(body) >= 300
-        and (b"<svg" in head or "image/svg" in content_type.lower())
-        and b"<html" not in head
-        and b"deployment_paused" not in head
-    )
-
-
-def choose_card_url(candidates: list[str]) -> str:
-    for url in candidates:
-        req = urllib.request.Request(
-            url,
-            headers={
-                "Accept": "image/svg+xml,image/*,*/*",
-                "User-Agent": f"{USERNAME}-profile-card-probe",
-            },
+def render_engineering_signal(
+    upstream_merged: int,
+    maintained_stars: int,
+    public_contributions: int,
+) -> str:
+    metrics = [
+        (str(upstream_merged), "UPSTREAM MERGES", "public external pull requests"),
+        (str(maintained_stars), "TOOL STARS", "across maintained OpenCode tools"),
+        (str(public_contributions), "PUBLIC CONTRIBUTIONS", "trailing twelve months"),
+    ]
+    metric_groups = []
+    for index, (value, label, detail) in enumerate(metrics):
+        x = 56 + index * 368
+        metric_groups.append(
+            f"""  <text class="value" x="{x}" y="205">{value}</text>
+  <text class="label" x="{x}" y="248">{label}</text>
+  <text class="detail" x="{x}" y="278">{detail}</text>"""
         )
-        try:
-            with urllib.request.urlopen(
-                req,
-                context=ssl.create_default_context(),
-                timeout=10,
-            ) as response:
-                body = response.read(64_000)
-                content_type = response.headers.get("Content-Type", "")
-                if response.status == 200 and looks_like_svg(body, content_type):
-                    return url
-        except Exception:
-            continue
-    return candidates[0]
+
+    return f"""<svg xmlns="http://www.w3.org/2000/svg" width="1160" height="420" viewBox="0 0 1160 420" role="img" aria-labelledby="title desc">
+  <title id="title">Floze engineering signal</title>
+  <desc id="desc">{upstream_merged} upstream merges, {maintained_stars} stars across maintained tools, and {public_contributions} public contributions in the last twelve months.</desc>
+  <style>
+    .eyebrow {{ fill: #58a6ff; font: 700 14px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; letter-spacing: 1px; }}
+    .headline {{ fill: #f0f6fc; font: 700 26px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }}
+    .value {{ fill: #f0f6fc; font: 700 48px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }}
+    .label {{ fill: #3fb950; font: 700 14px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }}
+    .detail {{ fill: #8b949e; font: 15px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }}
+    .method {{ fill: #c9d1d9; font: 600 15px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }}
+  </style>
+  <rect width="1160" height="420" rx="8" fill="#0d1117"/>
+  <rect x="1" y="1" width="1158" height="418" rx="7" fill="none" stroke="#30363d" stroke-width="2"/>
+  <path d="M56 44h132" stroke="#2f81f7" stroke-width="4"/>
+  <path d="M188 44h56" stroke="#3fb950" stroke-width="4"/>
+  <text class="eyebrow" x="56" y="77">ENGINEERING SIGNAL</text>
+  <text class="headline" x="56" y="124">Public evidence of maintainer-grade execution</text>
+{chr(10).join(metric_groups)}
+  <path d="M56 315h1048" stroke="#30363d"/>
+  <text class="method" x="56" y="358">TRACE  →  REPRODUCE  →  TEST  →  SHIP  →  OWN</text>
+  <text class="detail" x="56" y="392">Compiler/runtime · APIs · storage · Kubernetes · CLI safety · CI and production recovery</text>
+</svg>
+"""
 
 
-def render() -> str:
+def render() -> tuple[str, str]:
     template = TEMPLATE.read_text(encoding="utf-8")
     template = re.sub(
         r"^<!--.*?-->\n",
@@ -365,8 +335,6 @@ def render() -> str:
         "MAINTAINED_PROJECTS": projects,
         "RECENT_MERGES": format_recent_merges(merged),
     }
-    for key, candidates in CARD_CANDIDATES.items():
-        replacements[key] = choose_card_url(candidates)
 
     content = template
     for key, value in replacements.items():
@@ -375,16 +343,23 @@ def render() -> str:
     leftovers = re.findall(r"\{\{[A-Z0-9_]+\}\}", content)
     if leftovers:
         raise RuntimeError(f"Unreplaced placeholders: {leftovers}")
-    return content
+    signal = render_engineering_signal(
+        len(external_merged),
+        maintained_stars,
+        contributions,
+    )
+    return content, signal
 
 
 def main() -> int:
     try:
-        OUTPUT.write_text(render(), encoding="utf-8")
+        content, signal = render()
+        OUTPUT.write_text(content, encoding="utf-8")
+        SIGNAL_OUTPUT.write_text(signal, encoding="utf-8")
     except Exception as exc:
         print(f"ERROR: {exc}", file=sys.stderr)
         return 1
-    print(f"Generated {OUTPUT}")
+    print(f"Generated {OUTPUT} and {SIGNAL_OUTPUT}")
     return 0
 
 
