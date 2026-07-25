@@ -8,9 +8,9 @@
   </p>
 
   <p>
-    <img src="https://img.shields.io/badge/upstream%20merged-88-238636?style=flat-square&logo=git&logoColor=white" alt="88 merged upstream pull requests" />
-    <img src="https://img.shields.io/badge/maintained%20tool%20stars-283-2f81f7?style=flat-square&logo=github&logoColor=white" alt="283 stars across maintained tools" />
-    <img src="https://img.shields.io/badge/public%20contributions%20(12mo)-542-3fb950?style=flat-square&logo=githubactions&logoColor=white" alt="542 public contributions in the last 12 months" />
+    <img src="https://img.shields.io/badge/upstream%20merged-89-238636?style=flat-square&logo=git&logoColor=white" alt="89 merged upstream pull requests" />
+    <img src="https://img.shields.io/badge/maintained%20tool%20stars-284-2f81f7?style=flat-square&logo=github&logoColor=white" alt="284 stars across maintained tools" />
+    <img src="https://img.shields.io/badge/public%20contributions%20(12mo)-546-3fb950?style=flat-square&logo=githubactions&logoColor=white" alt="546 public contributions in the last 12 months" />
   </p>
 </div>
 
@@ -79,12 +79,12 @@ My public work spans compiler/runtime behavior, Kubernetes policy validation, CL
 
 Automatically refreshed from public GitHub data. Repositories are de-duplicated so one project cannot dominate the list.
 
+- **[griffinmartin/opencode-claude-auth#244](https://github.com/griffinmartin/opencode-claude-auth/pull/244)** - fix: keep API errors out of terminal UI (2026-07-25)
 - **[super-productivity/super-productivity#9173](https://github.com/super-productivity/super-productivity/pull/9173)** - fix(mobile): keep backlog add button round (2026-07-23)
 - **[oclif/core#1628](https://github.com/oclif/core/pull/1628)** - feat: expose root help formatter (2026-07-23)
 - **[Kong/kongctl#1655](https://github.com/Kong/kongctl/pull/1655)** - fix(declarative): enforce saved plan execution modes (2026-07-23)
 - **[randovania/randovania#9412](https://github.com/randovania/randovania/pull/9412)** - Fix AM2R generation without nest pipes (2026-07-23)
 - **[data-apis/array-api-extra#861](https://github.com/data-apis/array-api-extra/pull/861)** - ENH: add `nunique` delegation (2026-07-23)
-- **[zarrs/zarrs#421](https://github.com/zarrs/zarrs/pull/421)** - feat(storage): add atomic write adapter (2026-07-23)
 
 ## Building now
 
