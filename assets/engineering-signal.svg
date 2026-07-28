@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1160" height="420" viewBox="0 0 1160 420" role="img" aria-labelledby="title desc">
   <title id="title">Floze engineering signal</title>
-  <desc id="desc">93 upstream merges, 284 stars across maintained tools, and 550 public contributions in the last twelve months.</desc>
+  <desc id="desc">93 upstream merges, 283 stars across maintained tools, and 553 public contributions in the last twelve months.</desc>
   <style>
     .eyebrow { fill: #58a6ff; font: 700 14px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; letter-spacing: 1px; }
     .headline { fill: #f0f6fc; font: 700 26px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
@@ -18,10 +18,10 @@
   <text class="value" x="56" y="205">93</text>
   <text class="label" x="56" y="248">UPSTREAM MERGES</text>
   <text class="detail" x="56" y="278">public external pull requests</text>
-  <text class="value" x="424" y="205">284</text>
+  <text class="value" x="424" y="205">283</text>
   <text class="label" x="424" y="248">TOOL STARS</text>
   <text class="detail" x="424" y="278">across maintained OpenCode tools</text>
-  <text class="value" x="792" y="205">550</text>
+  <text class="value" x="792" y="205">553</text>
   <text class="label" x="792" y="248">PUBLIC CONTRIBUTIONS</text>
   <text class="detail" x="792" y="278">trailing twelve months</text>
   <path d="M56 315h1048" stroke="#30363d"/>
