@@ -8,9 +8,9 @@
   </p>
 
   <p>
-    <img src="https://img.shields.io/badge/upstream%20merged-93-238636?style=flat-square&logo=git&logoColor=white" alt="93 merged upstream pull requests" />
+    <img src="https://img.shields.io/badge/upstream%20merged-98-238636?style=flat-square&logo=git&logoColor=white" alt="98 merged upstream pull requests" />
     <img src="https://img.shields.io/badge/maintained%20tool%20stars-283-2f81f7?style=flat-square&logo=github&logoColor=white" alt="283 stars across maintained tools" />
-    <img src="https://img.shields.io/badge/public%20contributions%20(12mo)-555-3fb950?style=flat-square&logo=githubactions&logoColor=white" alt="555 public contributions in the last 12 months" />
+    <img src="https://img.shields.io/badge/public%20contributions%20(12mo)-561-3fb950?style=flat-square&logo=githubactions&logoColor=white" alt="561 public contributions in the last 12 months" />
   </p>
 </div>
 
@@ -79,12 +79,12 @@ My public work spans compiler/runtime behavior, Kubernetes policy validation, CL
 
 Automatically refreshed from public GitHub data. Repositories are de-duplicated so one project cannot dominate the list.
 
+- **[collective/icalendar#1567](https://github.com/collective/icalendar/pull/1567)** - Honor IMAGE VALUE parameters (2026-07-30)
+- **[apache/datafusion#23688](https://github.com/apache/datafusion/pull/23688)** - Optimize Spark hex null handling (2026-07-30)
+- **[jbeder/yaml-cpp#1465](https://github.com/jbeder/yaml-cpp/pull/1465)** - Avoid production source glob checks in no-op builds (2026-07-30)
+- **[nebari-dev/nebari-infrastructure-core#497](https://github.com/nebari-dev/nebari-infrastructure-core/pull/497)** - fix(aws): normalize generated state bucket names (2026-07-30)
+- **[TU-Wien-dataLAB/aqueduct#171](https://github.com/TU-Wien-dataLAB/aqueduct/pull/171)** - Show scaled request limit in 429 errors (2026-07-30)
 - **[ubiquiti-community/terraform-provider-unifi#385](https://github.com/ubiquiti-community/terraform-provider-unifi/pull/385)** - fix(setting): stabilize empty NTP server state (2026-07-26)
-- **[chaseruskin/orbit#22](https://github.com/chaseruskin/orbit/pull/22)** - Support UTF-8 and ISO-8859-1 source files (2026-07-26)
-- **[kaaval/kaaval#100](https://github.com/kaaval/kaaval/pull/100)** - fix: surface RBAC severity changes in scan diffs (2026-07-26)
-- **[kunkka19xx/look#289](https://github.com/kunkka19xx/look/pull/289)** - feat: remove clipboard entries with Cmd/Ctrl+D (2026-07-25)
-- **[griffinmartin/opencode-claude-auth#244](https://github.com/griffinmartin/opencode-claude-auth/pull/244)** - fix: keep API errors out of terminal UI (2026-07-25)
-- **[super-productivity/super-productivity#9173](https://github.com/super-productivity/super-productivity/pull/9173)** - fix(mobile): keep backlog add button round (2026-07-23)
 
 ## Building now
 
