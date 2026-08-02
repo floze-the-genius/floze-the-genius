@@ -8,9 +8,9 @@
   </p>
 
   <p>
-    <img src="https://img.shields.io/badge/upstream%20merged-101-238636?style=flat-square&logo=git&logoColor=white" alt="101 merged upstream pull requests" />
+    <img src="https://img.shields.io/badge/upstream%20merged-102-238636?style=flat-square&logo=git&logoColor=white" alt="102 merged upstream pull requests" />
     <img src="https://img.shields.io/badge/maintained%20tool%20stars-283-2f81f7?style=flat-square&logo=github&logoColor=white" alt="283 stars across maintained tools" />
-    <img src="https://img.shields.io/badge/public%20contributions%20(12mo)-564-3fb950?style=flat-square&logo=githubactions&logoColor=white" alt="564 public contributions in the last 12 months" />
+    <img src="https://img.shields.io/badge/public%20contributions%20(12mo)-565-3fb950?style=flat-square&logo=githubactions&logoColor=white" alt="565 public contributions in the last 12 months" />
   </p>
 </div>
 
@@ -79,12 +79,12 @@ My public work spans compiler/runtime behavior, Kubernetes policy validation, CL
 
 Automatically refreshed from public GitHub data. Repositories are de-duplicated so one project cannot dominate the list.
 
+- **[altic-dev/FluidVoice#645](https://github.com/altic-dev/FluidVoice/pull/645)** - fix(ui): make the advanced prompt editor scrollable (2026-08-02)
 - **[nextlevelbuilder/goclaw#1450](https://github.com/nextlevelbuilder/goclaw/pull/1450)** - test(mcp): lock test and save SSRF parity (2026-07-31)
 - **[netobserv/netobserv-web-console#1603](https://github.com/netobserv/netobserv-web-console/pull/1603)** - Hide OpenShift-only links in standalone mode (2026-07-31)
 - **[iobroker-community-adapters/ioBroker.shelly#1538](https://github.com/iobroker-community-adapters/ioBroker.shelly/pull/1538)** - Fix roles for Gen 2+ input states (2026-07-31)
 - **[collective/icalendar#1567](https://github.com/collective/icalendar/pull/1567)** - Honor IMAGE VALUE parameters (2026-07-30)
 - **[apache/datafusion#23688](https://github.com/apache/datafusion/pull/23688)** - Optimize Spark hex null handling (2026-07-30)
-- **[jbeder/yaml-cpp#1465](https://github.com/jbeder/yaml-cpp/pull/1465)** - Avoid production source glob checks in no-op builds (2026-07-30)
 
 ## Building now
 
