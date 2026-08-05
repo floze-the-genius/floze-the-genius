@@ -10,7 +10,7 @@
   <p>
     <img src="https://img.shields.io/badge/upstream%20merged-102-238636?style=flat-square&logo=git&logoColor=white" alt="102 merged upstream pull requests" />
     <img src="https://img.shields.io/badge/maintained%20tool%20stars-283-2f81f7?style=flat-square&logo=github&logoColor=white" alt="283 stars across maintained tools" />
-    <img src="https://img.shields.io/badge/public%20contributions%20(12mo)-565-3fb950?style=flat-square&logo=githubactions&logoColor=white" alt="565 public contributions in the last 12 months" />
+    <img src="https://img.shields.io/badge/public%20contributions%20(12mo)-566-3fb950?style=flat-square&logo=githubactions&logoColor=white" alt="566 public contributions in the last 12 months" />
   </p>
 </div>
 
