@@ -8,9 +8,9 @@
   </p>
 
   <p>
-    <img src="https://img.shields.io/badge/upstream%20merged-103-238636?style=flat-square&logo=git&logoColor=white" alt="103 merged upstream pull requests" />
-    <img src="https://img.shields.io/badge/maintained%20tool%20stars-283-2f81f7?style=flat-square&logo=github&logoColor=white" alt="283 stars across maintained tools" />
-    <img src="https://img.shields.io/badge/public%20contributions%20(12mo)-567-3fb950?style=flat-square&logo=githubactions&logoColor=white" alt="567 public contributions in the last 12 months" />
+    <img src="https://img.shields.io/badge/upstream%20merged-105-238636?style=flat-square&logo=git&logoColor=white" alt="105 merged upstream pull requests" />
+    <img src="https://img.shields.io/badge/maintained%20tool%20stars-284-2f81f7?style=flat-square&logo=github&logoColor=white" alt="284 stars across maintained tools" />
+    <img src="https://img.shields.io/badge/public%20contributions%20(12mo)-569-3fb950?style=flat-square&logo=githubactions&logoColor=white" alt="569 public contributions in the last 12 months" />
   </p>
 </div>
 
@@ -79,12 +79,12 @@ My public work spans compiler/runtime behavior, Kubernetes policy validation, CL
 
 Automatically refreshed from public GitHub data. Repositories are de-duplicated so one project cannot dominate the list.
 
+- **[photoview/photoview#1452](https://github.com/photoview/photoview/pull/1452)** - Add labels for share links (2026-08-07)
+- **[nspcc-dev/neo-go#4364](https://github.com/nspcc-dev/neo-go/pull/4364)** - compiler: make asserted byte-slice fields mutable (2026-08-07)
 - **[EmbarkStudios/spdx#96](https://github.com/EmbarkStudios/spdx/pull/96)** - Fix LicenseItem ordering consistency (2026-08-06)
 - **[altic-dev/FluidVoice#645](https://github.com/altic-dev/FluidVoice/pull/645)** - fix(ui): make the advanced prompt editor scrollable (2026-08-02)
 - **[nextlevelbuilder/goclaw#1450](https://github.com/nextlevelbuilder/goclaw/pull/1450)** - test(mcp): lock test and save SSRF parity (2026-07-31)
 - **[netobserv/netobserv-web-console#1603](https://github.com/netobserv/netobserv-web-console/pull/1603)** - Hide OpenShift-only links in standalone mode (2026-07-31)
-- **[iobroker-community-adapters/ioBroker.shelly#1538](https://github.com/iobroker-community-adapters/ioBroker.shelly/pull/1538)** - Fix roles for Gen 2+ input states (2026-07-31)
-- **[collective/icalendar#1567](https://github.com/collective/icalendar/pull/1567)** - Honor IMAGE VALUE parameters (2026-07-30)
 
 ## Building now
 
