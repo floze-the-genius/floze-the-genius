@@ -8,9 +8,9 @@
   </p>
 
   <p>
-    <img src="https://img.shields.io/badge/upstream%20merged-105-238636?style=flat-square&logo=git&logoColor=white" alt="105 merged upstream pull requests" />
+    <img src="https://img.shields.io/badge/upstream%20merged-108-238636?style=flat-square&logo=git&logoColor=white" alt="108 merged upstream pull requests" />
     <img src="https://img.shields.io/badge/maintained%20tool%20stars-284-2f81f7?style=flat-square&logo=github&logoColor=white" alt="284 stars across maintained tools" />
-    <img src="https://img.shields.io/badge/public%20contributions%20(12mo)-569-3fb950?style=flat-square&logo=githubactions&logoColor=white" alt="569 public contributions in the last 12 months" />
+    <img src="https://img.shields.io/badge/public%20contributions%20(12mo)-577-3fb950?style=flat-square&logo=githubactions&logoColor=white" alt="577 public contributions in the last 12 months" />
   </p>
 </div>
 
@@ -79,12 +79,12 @@ My public work spans compiler/runtime behavior, Kubernetes policy validation, CL
 
 Automatically refreshed from public GitHub data. Repositories are de-duplicated so one project cannot dominate the list.
 
+- **[e-cordel/ecordel-frontend#54](https://github.com/e-cordel/ecordel-frontend/pull/54)** - feat: pagina resultados da busca na página inicial (2026-08-09)
+- **[kellnerd/harmony#236](https://github.com/kellnerd/harmony/pull/236)** - fix(Qobuz): restore missing GTIN check digits (2026-08-09)
+- **[opengeos/GeoAgent#119](https://github.com/opengeos/GeoAgent/pull/119)** - fix(qgis): sync provider credentials across docks (2026-08-09)
 - **[photoview/photoview#1452](https://github.com/photoview/photoview/pull/1452)** - Add labels for share links (2026-08-07)
 - **[nspcc-dev/neo-go#4364](https://github.com/nspcc-dev/neo-go/pull/4364)** - compiler: make asserted byte-slice fields mutable (2026-08-07)
 - **[EmbarkStudios/spdx#96](https://github.com/EmbarkStudios/spdx/pull/96)** - Fix LicenseItem ordering consistency (2026-08-06)
-- **[altic-dev/FluidVoice#645](https://github.com/altic-dev/FluidVoice/pull/645)** - fix(ui): make the advanced prompt editor scrollable (2026-08-02)
-- **[nextlevelbuilder/goclaw#1450](https://github.com/nextlevelbuilder/goclaw/pull/1450)** - test(mcp): lock test and save SSRF parity (2026-07-31)
-- **[netobserv/netobserv-web-console#1603](https://github.com/netobserv/netobserv-web-console/pull/1603)** - Hide OpenShift-only links in standalone mode (2026-07-31)
 
 ## Building now
 
