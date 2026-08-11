@@ -8,9 +8,9 @@
   </p>
 
   <p>
-    <img src="https://img.shields.io/badge/upstream%20merged-108-238636?style=flat-square&logo=git&logoColor=white" alt="108 merged upstream pull requests" />
+    <img src="https://img.shields.io/badge/upstream%20merged-132-238636?style=flat-square&logo=git&logoColor=white" alt="132 merged upstream pull requests" />
     <img src="https://img.shields.io/badge/maintained%20tool%20stars-284-2f81f7?style=flat-square&logo=github&logoColor=white" alt="284 stars across maintained tools" />
-    <img src="https://img.shields.io/badge/public%20contributions%20(12mo)-577-3fb950?style=flat-square&logo=githubactions&logoColor=white" alt="577 public contributions in the last 12 months" />
+    <img src="https://img.shields.io/badge/public%20contributions%20(12mo)-663-3fb950?style=flat-square&logo=githubactions&logoColor=white" alt="663 public contributions in the last 12 months" />
   </p>
 </div>
 
@@ -79,12 +79,12 @@ My public work spans compiler/runtime behavior, Kubernetes policy validation, CL
 
 Automatically refreshed from public GitHub data. Repositories are de-duplicated so one project cannot dominate the list.
 
-- **[e-cordel/ecordel-frontend#54](https://github.com/e-cordel/ecordel-frontend/pull/54)** - feat: pagina resultados da busca na página inicial (2026-08-09)
-- **[kellnerd/harmony#236](https://github.com/kellnerd/harmony/pull/236)** - fix(Qobuz): restore missing GTIN check digits (2026-08-09)
-- **[opengeos/GeoAgent#119](https://github.com/opengeos/GeoAgent/pull/119)** - fix(qgis): sync provider credentials across docks (2026-08-09)
-- **[photoview/photoview#1452](https://github.com/photoview/photoview/pull/1452)** - Add labels for share links (2026-08-07)
-- **[nspcc-dev/neo-go#4364](https://github.com/nspcc-dev/neo-go/pull/4364)** - compiler: make asserted byte-slice fields mutable (2026-08-07)
-- **[EmbarkStudios/spdx#96](https://github.com/EmbarkStudios/spdx/pull/96)** - Fix LicenseItem ordering consistency (2026-08-06)
+- **[phasespace-labs/palinode#110](https://github.com/phasespace-labs/palinode/pull/110)** - docs: align parity guide with executable guards (2026-08-11)
+- **[jmbarzee/temporal-architect#80](https://github.com/jmbarzee/temporal-architect/pull/80)** - docs: add MCP client configuration examples (2026-08-11)
+- **[jeremysball/taskferry#441](https://github.com/jeremysball/taskferry/pull/441)** - perf(statusline): cache Taskferry refreshes (2026-08-11)
+- **[openslop/openslop#551](https://github.com/openslop/openslop/pull/551)** - fix(canvas): wrap narrow element actions (2026-08-11)
+- **[vanessa49/obsidian-qdrant-pipeline-oss#4](https://github.com/vanessa49/obsidian-qdrant-pipeline-oss/pull/4)** - test(convert): cover deterministic text routing (2026-08-11)
+- **[nanofuzz/nanofuzz#452](https://github.com/nanofuzz/nanofuzz/pull/452)** - feat: add NaNofuzz version to output file (2026-08-11)
 
 ## Building now
 
