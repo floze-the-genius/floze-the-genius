@@ -8,9 +8,9 @@
   </p>
 
   <p>
-    <img src="https://img.shields.io/badge/upstream%20merged-132-238636?style=flat-square&logo=git&logoColor=white" alt="132 merged upstream pull requests" />
-    <img src="https://img.shields.io/badge/maintained%20tool%20stars-284-2f81f7?style=flat-square&logo=github&logoColor=white" alt="284 stars across maintained tools" />
-    <img src="https://img.shields.io/badge/public%20contributions%20(12mo)-663-3fb950?style=flat-square&logo=githubactions&logoColor=white" alt="663 public contributions in the last 12 months" />
+    <img src="https://img.shields.io/badge/upstream%20merged-173-238636?style=flat-square&logo=git&logoColor=white" alt="173 merged upstream pull requests" />
+    <img src="https://img.shields.io/badge/maintained%20tool%20stars-286-2f81f7?style=flat-square&logo=github&logoColor=white" alt="286 stars across maintained tools" />
+    <img src="https://img.shields.io/badge/public%20contributions%20(12mo)-742-3fb950?style=flat-square&logo=githubactions&logoColor=white" alt="742 public contributions in the last 12 months" />
   </p>
 </div>
 
@@ -79,12 +79,12 @@ My public work spans compiler/runtime behavior, Kubernetes policy validation, CL
 
 Automatically refreshed from public GitHub data. Repositories are de-duplicated so one project cannot dominate the list.
 
-- **[phasespace-labs/palinode#110](https://github.com/phasespace-labs/palinode/pull/110)** - docs: align parity guide with executable guards (2026-08-11)
-- **[jmbarzee/temporal-architect#80](https://github.com/jmbarzee/temporal-architect/pull/80)** - docs: add MCP client configuration examples (2026-08-11)
-- **[jeremysball/taskferry#441](https://github.com/jeremysball/taskferry/pull/441)** - perf(statusline): cache Taskferry refreshes (2026-08-11)
-- **[openslop/openslop#551](https://github.com/openslop/openslop/pull/551)** - fix(canvas): wrap narrow element actions (2026-08-11)
-- **[vanessa49/obsidian-qdrant-pipeline-oss#4](https://github.com/vanessa49/obsidian-qdrant-pipeline-oss/pull/4)** - test(convert): cover deterministic text routing (2026-08-11)
-- **[nanofuzz/nanofuzz#452](https://github.com/nanofuzz/nanofuzz/pull/452)** - feat: add NaNofuzz version to output file (2026-08-11)
+- **[selfcustody/krux-installer#291](https://github.com/selfcustody/krux-installer/pull/291)** - chore(uv): migrate dev dependencies to dependency group (2026-08-12)
+- **[vinhnguyenthanhdn/tide-flow#11](https://github.com/vinhnguyenthanhdn/tide-flow/pull/11)** - feat: add accessible reset-zoom control (2026-08-11)
+- **[vinhnguyenthanhdn/claude-jobs#5](https://github.com/vinhnguyenthanhdn/claude-jobs/pull/5)** - fix(cron): handle trailing whitespace in markers (2026-08-11)
+- **[tomanagle/adenosine#33](https://github.com/tomanagle/adenosine/pull/33)** - Fix and test the landing-page API documentation link (2026-08-11)
+- **[Ramzi-Abidi/filebouncer#25](https://github.com/Ramzi-Abidi/filebouncer/pull/25)** - feat(archive): flag encrypted zip entries (2026-08-11)
+- **[jepegit/cellpy#887](https://github.com/jepegit/cellpy/pull/887)** - fix(ci): run unambiguous merge gates (#876) (2026-08-11)
 
 ## Building now
 
