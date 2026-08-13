@@ -8,9 +8,9 @@
   </p>
 
   <p>
-    <img src="https://img.shields.io/badge/upstream%20merged-173-238636?style=flat-square&logo=git&logoColor=white" alt="173 merged upstream pull requests" />
-    <img src="https://img.shields.io/badge/maintained%20tool%20stars-286-2f81f7?style=flat-square&logo=github&logoColor=white" alt="286 stars across maintained tools" />
-    <img src="https://img.shields.io/badge/public%20contributions%20(12mo)-742-3fb950?style=flat-square&logo=githubactions&logoColor=white" alt="742 public contributions in the last 12 months" />
+    <img src="https://img.shields.io/badge/upstream%20merged-176-238636?style=flat-square&logo=git&logoColor=white" alt="176 merged upstream pull requests" />
+    <img src="https://img.shields.io/badge/maintained%20tool%20stars-287-2f81f7?style=flat-square&logo=github&logoColor=white" alt="287 stars across maintained tools" />
+    <img src="https://img.shields.io/badge/public%20contributions%20(12mo)-745-3fb950?style=flat-square&logo=githubactions&logoColor=white" alt="745 public contributions in the last 12 months" />
   </p>
 </div>
 
@@ -79,12 +79,12 @@ My public work spans compiler/runtime behavior, Kubernetes policy validation, CL
 
 Automatically refreshed from public GitHub data. Repositories are de-duplicated so one project cannot dominate the list.
 
+- **[aethersdr/AetherSDR#4895](https://github.com/aethersdr/AetherSDR/pull/4895)** - docs(gui): correct TCI audio guidance (2026-08-12)
+- **[Automattic/harper#3850](https://github.com/Automattic/harper/pull/3850)** - feat(core): add zero-width negation expression (2026-08-12)
+- **[jannskiee/floe#282](https://github.com/jannskiee/floe/pull/282)** - fix(desktop): use an app-specific update hint (2026-08-12)
 - **[selfcustody/krux-installer#291](https://github.com/selfcustody/krux-installer/pull/291)** - chore(uv): migrate dev dependencies to dependency group (2026-08-12)
 - **[vinhnguyenthanhdn/tide-flow#11](https://github.com/vinhnguyenthanhdn/tide-flow/pull/11)** - feat: add accessible reset-zoom control (2026-08-11)
 - **[vinhnguyenthanhdn/claude-jobs#5](https://github.com/vinhnguyenthanhdn/claude-jobs/pull/5)** - fix(cron): handle trailing whitespace in markers (2026-08-11)
-- **[tomanagle/adenosine#33](https://github.com/tomanagle/adenosine/pull/33)** - Fix and test the landing-page API documentation link (2026-08-11)
-- **[Ramzi-Abidi/filebouncer#25](https://github.com/Ramzi-Abidi/filebouncer/pull/25)** - feat(archive): flag encrypted zip entries (2026-08-11)
-- **[jepegit/cellpy#887](https://github.com/jepegit/cellpy/pull/887)** - fix(ci): run unambiguous merge gates (#876) (2026-08-11)
 
 ## Building now
 
