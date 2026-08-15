@@ -8,9 +8,9 @@
   </p>
 
   <p>
-    <img src="https://img.shields.io/badge/upstream%20merged-197-238636?style=flat-square&logo=git&logoColor=white" alt="197 merged upstream pull requests" />
+    <img src="https://img.shields.io/badge/upstream%20merged-222-238636?style=flat-square&logo=git&logoColor=white" alt="222 merged upstream pull requests" />
     <img src="https://img.shields.io/badge/maintained%20tool%20stars-288-2f81f7?style=flat-square&logo=github&logoColor=white" alt="288 stars across maintained tools" />
-    <img src="https://img.shields.io/badge/public%20contributions%20(12mo)-843-3fb950?style=flat-square&logo=githubactions&logoColor=white" alt="843 public contributions in the last 12 months" />
+    <img src="https://img.shields.io/badge/public%20contributions%20(12mo)-896-3fb950?style=flat-square&logo=githubactions&logoColor=white" alt="896 public contributions in the last 12 months" />
   </p>
 </div>
 
@@ -79,12 +79,12 @@ My public work spans compiler/runtime behavior, Kubernetes policy validation, CL
 
 Automatically refreshed from public GitHub data. Repositories are de-duplicated so one project cannot dominate the list.
 
-- **[GenericMappingTools/pygmt#4826](https://github.com/GenericMappingTools/pygmt/pull/4826)** - Figure.inset: Remove deprecated parameter margin [Deprecated since 0.18.0] (2026-08-14)
-- **[jfecher/ante#268](https://github.com/jfecher/ante/pull/268)** - Add float-to-string casts (#267) (2026-08-14)
-- **[jeremyckahn/farmhand#752](https://github.com/jeremyckahn/farmhand/pull/752)** - Derive enum types from runtime values (2026-08-14)
-- **[adriengivry/baregl#63](https://github.com/adriengivry/baregl/pull/63)** - Add support for glScissor (2026-08-14)
-- **[vedaant00/opendot#110](https://github.com/vedaant00/opendot/pull/110)** - feat: persist and resume project sessions (2026-08-14)
-- **[mathnotes-app/mobile-ink#48](https://github.com/mathnotes-app/mobile-ink/pull/48)** - fix: keep coloring tools out of shape recognition (2026-08-13)
+- **[willdady/platypus#451](https://github.com/willdady/platypus/pull/451)** - fix(backend): validate tool set contributions (2026-08-15)
+- **[MarcoPorcellato/logseq-matryca-parser#145](https://github.com/MarcoPorcellato/logseq-matryca-parser/pull/145)** - test(paths): specify deterministic graph discovery order (2026-08-14)
+- **[mattgodbolt/specbolt#43](https://github.com/mattgodbolt/specbolt/pull/43)** - Fix DD/FD-prefixed EX DE,HL in v2/v3 (2026-08-14)
+- **[chrisyangsong/citegate#4](https://github.com/chrisyangsong/citegate/pull/4)** - feat: add DBLP search fallback (2026-08-14)
+- **[towerwatchman/Atlas#356](https://github.com/towerwatchman/Atlas/pull/356)** - Fix saved Browse sort normalization (2026-08-14)
+- **[ohdearquant/lionagi#3072](https://github.com/ohdearquant/lionagi/pull/3072)** - fix(service): expose the served CLI model (2026-08-14)
 
 ## Building now
 
