@@ -8,9 +8,9 @@
   </p>
 
   <p>
-    <img src="https://img.shields.io/badge/upstream%20merged-222-238636?style=flat-square&logo=git&logoColor=white" alt="222 merged upstream pull requests" />
+    <img src="https://img.shields.io/badge/upstream%20merged-232-238636?style=flat-square&logo=git&logoColor=white" alt="232 merged upstream pull requests" />
     <img src="https://img.shields.io/badge/maintained%20tool%20stars-288-2f81f7?style=flat-square&logo=github&logoColor=white" alt="288 stars across maintained tools" />
-    <img src="https://img.shields.io/badge/public%20contributions%20(12mo)-896-3fb950?style=flat-square&logo=githubactions&logoColor=white" alt="896 public contributions in the last 12 months" />
+    <img src="https://img.shields.io/badge/public%20contributions%20(12mo)-907-3fb950?style=flat-square&logo=githubactions&logoColor=white" alt="907 public contributions in the last 12 months" />
   </p>
 </div>
 
@@ -79,12 +79,12 @@ My public work spans compiler/runtime behavior, Kubernetes policy validation, CL
 
 Automatically refreshed from public GitHub data. Repositories are de-duplicated so one project cannot dominate the list.
 
-- **[willdady/platypus#451](https://github.com/willdady/platypus/pull/451)** - fix(backend): validate tool set contributions (2026-08-15)
-- **[MarcoPorcellato/logseq-matryca-parser#145](https://github.com/MarcoPorcellato/logseq-matryca-parser/pull/145)** - test(paths): specify deterministic graph discovery order (2026-08-14)
-- **[mattgodbolt/specbolt#43](https://github.com/mattgodbolt/specbolt/pull/43)** - Fix DD/FD-prefixed EX DE,HL in v2/v3 (2026-08-14)
-- **[chrisyangsong/citegate#4](https://github.com/chrisyangsong/citegate/pull/4)** - feat: add DBLP search fallback (2026-08-14)
-- **[towerwatchman/Atlas#356](https://github.com/towerwatchman/Atlas/pull/356)** - Fix saved Browse sort normalization (2026-08-14)
-- **[ohdearquant/lionagi#3072](https://github.com/ohdearquant/lionagi/pull/3072)** - fix(service): expose the served CLI model (2026-08-14)
+- **[zonlabs/mcp-ts#189](https://github.com/zonlabs/mcp-ts/pull/189)** - feat(cli): add MCP developer CLI (2026-08-16)
+- **[mainak55512/qwe#55](https://github.com/mainak55512/qwe/pull/55)** - feat: implement untrack command (2026-08-15)
+- **[willow-god/Friend-Circle-Lite#79](https://github.com/willow-god/Friend-Circle-Lite/pull/79)** - Skip unchanged page deployments (2026-08-15)
+- **[calibrain/shelfmark#1203](https://github.com/calibrain/shelfmark/pull/1203)** - fix: sync renamed CWA usernames safely (2026-08-15)
+- **[apache/datafusion-ballista#2297](https://github.com/apache/datafusion-ballista/pull/2297)** - test: centralize physical plan snapshot assertions (2026-08-15)
+- **[GothenburgBitFactory/taskwarrior#4167](https://github.com/GothenburgBitFactory/taskwarrior/pull/4167)** - feat: add annotation.info setting (2026-08-15)
 
 ## Building now
 
