@@ -8,9 +8,9 @@
   </p>
 
   <p>
-    <img src="https://img.shields.io/badge/upstream%20merged-232-238636?style=flat-square&logo=git&logoColor=white" alt="232 merged upstream pull requests" />
+    <img src="https://img.shields.io/badge/upstream%20merged-238-238636?style=flat-square&logo=git&logoColor=white" alt="238 merged upstream pull requests" />
     <img src="https://img.shields.io/badge/maintained%20tool%20stars-288-2f81f7?style=flat-square&logo=github&logoColor=white" alt="288 stars across maintained tools" />
-    <img src="https://img.shields.io/badge/public%20contributions%20(12mo)-907-3fb950?style=flat-square&logo=githubactions&logoColor=white" alt="907 public contributions in the last 12 months" />
+    <img src="https://img.shields.io/badge/public%20contributions%20(12mo)-914-3fb950?style=flat-square&logo=githubactions&logoColor=white" alt="914 public contributions in the last 12 months" />
   </p>
 </div>
 
@@ -79,12 +79,12 @@ My public work spans compiler/runtime behavior, Kubernetes policy validation, CL
 
 Automatically refreshed from public GitHub data. Repositories are de-duplicated so one project cannot dominate the list.
 
-- **[zonlabs/mcp-ts#189](https://github.com/zonlabs/mcp-ts/pull/189)** - feat(cli): add MCP developer CLI (2026-08-16)
-- **[mainak55512/qwe#55](https://github.com/mainak55512/qwe/pull/55)** - feat: implement untrack command (2026-08-15)
-- **[willow-god/Friend-Circle-Lite#79](https://github.com/willow-god/Friend-Circle-Lite/pull/79)** - Skip unchanged page deployments (2026-08-15)
-- **[calibrain/shelfmark#1203](https://github.com/calibrain/shelfmark/pull/1203)** - fix: sync renamed CWA usernames safely (2026-08-15)
-- **[apache/datafusion-ballista#2297](https://github.com/apache/datafusion-ballista/pull/2297)** - test: centralize physical plan snapshot assertions (2026-08-15)
-- **[GothenburgBitFactory/taskwarrior#4167](https://github.com/GothenburgBitFactory/taskwarrior/pull/4167)** - feat: add annotation.info setting (2026-08-15)
+- **[vavallee/bindery#1993](https://github.com/vavallee/bindery/pull/1993)** - fix(downloader): surface configured path hints (#1984) (2026-08-17)
+- **[Nikolay-Lysenko/renovation#9](https://github.com/Nikolay-Lysenko/renovation/pull/9)** - Add fridge home-appliance element (2026-08-16)
+- **[AnayDhawan/oss-launch#33](https://github.com/AnayDhawan/oss-launch/pull/33)** - fix: validate rendered README media in audit (2026-08-16)
+- **[gianpaj/sexyvoice#519](https://github.com/gianpaj/sexyvoice/pull/519)** - refactor(characters): centralize custom character limit (2026-08-16)
+- **[shamash92/KuraZetu#194](https://github.com/shamash92/KuraZetu/pull/194)** - [docs] Remove orphaned language screenshot (2026-08-16)
+- **[longnick/small-pos-open-source#31](https://github.com/longnick/small-pos-open-source/pull/31)** - docs: make local demo verification reproducible (2026-08-16)
 
 ## Building now
 
