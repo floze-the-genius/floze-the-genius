@@ -8,9 +8,9 @@
   </p>
 
   <p>
-    <img src="https://img.shields.io/badge/upstream%20merged-247-238636?style=flat-square&logo=git&logoColor=white" alt="247 merged upstream pull requests" />
+    <img src="https://img.shields.io/badge/upstream%20merged-248-238636?style=flat-square&logo=git&logoColor=white" alt="248 merged upstream pull requests" />
     <img src="https://img.shields.io/badge/maintained%20tool%20stars-289-2f81f7?style=flat-square&logo=github&logoColor=white" alt="289 stars across maintained tools" />
-    <img src="https://img.shields.io/badge/public%20contributions%20(12mo)-924-3fb950?style=flat-square&logo=githubactions&logoColor=white" alt="924 public contributions in the last 12 months" />
+    <img src="https://img.shields.io/badge/public%20contributions%20(12mo)-926-3fb950?style=flat-square&logo=githubactions&logoColor=white" alt="926 public contributions in the last 12 months" />
   </p>
 </div>
 
@@ -79,12 +79,12 @@ My public work spans compiler/runtime behavior, Kubernetes policy validation, CL
 
 Automatically refreshed from public GitHub data. Repositories are de-duplicated so one project cannot dominate the list.
 
+- **[kubara-io/kubara#564](https://github.com/kubara-io/kubara/pull/564)** - feat(init): support bootstrap catalog override (2026-08-19)
 - **[SantiagoEmanuel/barbershop#61](https://github.com/SantiagoEmanuel/barbershop/pull/61)** - fix(components): asociar labels con inputs (2026-08-18)
 - **[Steel-Foundation/SteelMC#357](https://github.com/Steel-Foundation/SteelMC/pull/357)** - fix: respect block drops for face-directed items (2026-08-18)
 - **[bjarneo/cliamp#302](https://github.com/bjarneo/cliamp/pull/302)** - fix(upgrade): replace running binary on Windows (2026-08-18)
 - **[kpavlov/tachyon#235](https://github.com/kpavlov/tachyon/pull/235)** - fix: advertise registered extensions (2026-08-18)
 - **[absmach/propeller#261](https://github.com/absmach/propeller/pull/261)** - fix(ssl): create certificate output directory (2026-08-18)
-- **[yjmantilla/sovabids#97](https://github.com/yjmantilla/sovabids/pull/97)** - test(docs): exercise YAML snippets through load_rules (2026-08-18)
 
 ## Building now
 
