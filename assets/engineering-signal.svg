@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1160" height="420" viewBox="0 0 1160 420" role="img" aria-labelledby="title desc">
   <title id="title">Floze engineering signal</title>
-  <desc id="desc">251 upstream merges, 289 stars across maintained tools, and 929 public contributions in the last twelve months.</desc>
+  <desc id="desc">252 upstream merges, 289 stars across maintained tools, and 930 public contributions in the last twelve months.</desc>
   <style>
     .eyebrow { fill: #58a6ff; font: 700 14px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; letter-spacing: 1px; }
     .headline { fill: #f0f6fc; font: 700 26px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
@@ -15,13 +15,13 @@
   <path d="M188 44h56" stroke="#3fb950" stroke-width="4"/>
   <text class="eyebrow" x="56" y="77">ENGINEERING SIGNAL</text>
   <text class="headline" x="56" y="124">Public evidence of maintainer-grade execution</text>
-  <text class="value" x="56" y="205">251</text>
+  <text class="value" x="56" y="205">252</text>
   <text class="label" x="56" y="248">UPSTREAM MERGES</text>
   <text class="detail" x="56" y="278">public external pull requests</text>
   <text class="value" x="424" y="205">289</text>
   <text class="label" x="424" y="248">TOOL STARS</text>
   <text class="detail" x="424" y="278">across maintained OpenCode tools</text>
-  <text class="value" x="792" y="205">929</text>
+  <text class="value" x="792" y="205">930</text>
   <text class="label" x="792" y="248">PUBLIC CONTRIBUTIONS</text>
   <text class="detail" x="792" y="278">trailing twelve months</text>
   <path d="M56 315h1048" stroke="#30363d"/>
