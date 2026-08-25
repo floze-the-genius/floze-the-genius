@@ -8,9 +8,9 @@
   </p>
 
   <p>
-    <img src="https://img.shields.io/badge/upstream%20merged-253-238636?style=flat-square&logo=git&logoColor=white" alt="253 merged upstream pull requests" />
-    <img src="https://img.shields.io/badge/maintained%20tool%20stars-288-2f81f7?style=flat-square&logo=github&logoColor=white" alt="288 stars across maintained tools" />
-    <img src="https://img.shields.io/badge/public%20contributions%20(12mo)-928-3fb950?style=flat-square&logo=githubactions&logoColor=white" alt="928 public contributions in the last 12 months" />
+    <img src="https://img.shields.io/badge/upstream%20merged-255-238636?style=flat-square&logo=git&logoColor=white" alt="255 merged upstream pull requests" />
+    <img src="https://img.shields.io/badge/maintained%20tool%20stars-292-2f81f7?style=flat-square&logo=github&logoColor=white" alt="292 stars across maintained tools" />
+    <img src="https://img.shields.io/badge/public%20contributions%20(12mo)-927-3fb950?style=flat-square&logo=githubactions&logoColor=white" alt="927 public contributions in the last 12 months" />
   </p>
 </div>
 
@@ -79,12 +79,12 @@ My public work spans compiler/runtime behavior, Kubernetes policy validation, CL
 
 Automatically refreshed from public GitHub data. Repositories are de-duplicated so one project cannot dominate the list.
 
+- **[WordPress/presence-api#263](https://github.com/WordPress/presence-api/pull/263)** - test: cover cleanup without presence table (2026-08-24)
+- **[codeday/fantasy-cow#52](https://github.com/codeday/fantasy-cow/pull/52)** - Fix JSON validation to require the cows directory (2026-08-24)
 - **[kirodotdev/KiroCrew#3317](https://github.com/kirodotdev/KiroCrew/pull/3317)** - fix: gate bundled embeddings on x86 CPU features (2026-08-23)
 - **[lekot/VScodePluginFor1CDev#121](https://github.com/lekot/VScodePluginFor1CDev/pull/121)** - fix: auto-detect ibcmd Cyrillic output encoding (2026-08-22)
 - **[Railly/agentfiles#44](https://github.com/Railly/agentfiles/pull/44)** - fix: ignore scanner metadata files (2026-08-22)
 - **[elsa-workflows/elsa-studio#940](https://github.com/elsa-workflows/elsa-studio/pull/940)** - fix: honor disabled workflow instance polling (2026-08-20)
-- **[codecentric/c4-genai-suite#1996](https://github.com/codecentric/c4-genai-suite/pull/1996)** - perf(frontend): reduce long chat rerenders (2026-08-20)
-- **[kubara-io/kubara#564](https://github.com/kubara-io/kubara/pull/564)** - feat(init): support bootstrap catalog override (2026-08-19)
 
 ## Building now
 
