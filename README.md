@@ -8,9 +8,9 @@
   </p>
 
   <p>
-    <img src="https://img.shields.io/badge/upstream%20merged-255-238636?style=flat-square&logo=git&logoColor=white" alt="255 merged upstream pull requests" />
-    <img src="https://img.shields.io/badge/maintained%20tool%20stars-292-2f81f7?style=flat-square&logo=github&logoColor=white" alt="292 stars across maintained tools" />
-    <img src="https://img.shields.io/badge/public%20contributions%20(12mo)-927-3fb950?style=flat-square&logo=githubactions&logoColor=white" alt="927 public contributions in the last 12 months" />
+    <img src="https://img.shields.io/badge/upstream%20merged-254-238636?style=flat-square&logo=git&logoColor=white" alt="254 merged upstream pull requests" />
+    <img src="https://img.shields.io/badge/maintained%20tool%20stars-297-2f81f7?style=flat-square&logo=github&logoColor=white" alt="297 stars across maintained tools" />
+    <img src="https://img.shields.io/badge/public%20contributions%20(12mo)-926-3fb950?style=flat-square&logo=githubactions&logoColor=white" alt="926 public contributions in the last 12 months" />
   </p>
 </div>
 
