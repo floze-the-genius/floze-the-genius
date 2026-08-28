@@ -8,8 +8,8 @@
   </p>
 
   <p>
-    <img src="https://img.shields.io/badge/upstream%20merged-254-238636?style=flat-square&logo=git&logoColor=white" alt="254 merged upstream pull requests" />
-    <img src="https://img.shields.io/badge/maintained%20tool%20stars-297-2f81f7?style=flat-square&logo=github&logoColor=white" alt="297 stars across maintained tools" />
+    <img src="https://img.shields.io/badge/upstream%20merged-255-238636?style=flat-square&logo=git&logoColor=white" alt="255 merged upstream pull requests" />
+    <img src="https://img.shields.io/badge/maintained%20tool%20stars-296-2f81f7?style=flat-square&logo=github&logoColor=white" alt="296 stars across maintained tools" />
     <img src="https://img.shields.io/badge/public%20contributions%20(12mo)-926-3fb950?style=flat-square&logo=githubactions&logoColor=white" alt="926 public contributions in the last 12 months" />
   </p>
 </div>
@@ -79,12 +79,12 @@ My public work spans compiler/runtime behavior, Kubernetes policy validation, CL
 
 Automatically refreshed from public GitHub data. Repositories are de-duplicated so one project cannot dominate the list.
 
+- **[openchamber/openchamber#2314](https://github.com/openchamber/openchamber/pull/2314)** - fix: keep GitHub settings mounted during refresh (2026-08-27)
 - **[WordPress/presence-api#263](https://github.com/WordPress/presence-api/pull/263)** - test: cover cleanup without presence table (2026-08-24)
 - **[codeday/fantasy-cow#52](https://github.com/codeday/fantasy-cow/pull/52)** - Fix JSON validation to require the cows directory (2026-08-24)
 - **[kirodotdev/KiroCrew#3317](https://github.com/kirodotdev/KiroCrew/pull/3317)** - fix: gate bundled embeddings on x86 CPU features (2026-08-23)
 - **[lekot/VScodePluginFor1CDev#121](https://github.com/lekot/VScodePluginFor1CDev/pull/121)** - fix: auto-detect ibcmd Cyrillic output encoding (2026-08-22)
 - **[Railly/agentfiles#44](https://github.com/Railly/agentfiles/pull/44)** - fix: ignore scanner metadata files (2026-08-22)
-- **[elsa-workflows/elsa-studio#940](https://github.com/elsa-workflows/elsa-studio/pull/940)** - fix: honor disabled workflow instance polling (2026-08-20)
 
 ## Building now
 
