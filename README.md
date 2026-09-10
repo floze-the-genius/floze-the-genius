@@ -81,7 +81,7 @@ Automatically refreshed from public GitHub data. Repositories are de-duplicated 
 
 - **[marton-balazs-kovacs/tenzing#110](https://github.com/marton-balazs-kovacs/tenzing/pull/110)** - Reorder output actions and clarify URL loading (2026-09-02)
 - **[aganesy/QFAI#507](https://github.com/aganesy/QFAI/pull/507)** - fix(validate,init): track and resolve TDD evidence anchors (2026-09-01)
-- **[777genius/claude-notifications-go#117](https://github.com/777genius/claude-notifications-go/pull/117)** - fix(macos): avoid ambiguous Ghostty cwd tab focus (2026-08-30)
+- **[777genius/agent-notifications#117](https://github.com/777genius/agent-notifications/pull/117)** - fix(macos): avoid ambiguous Ghostty cwd tab focus (2026-08-30)
 - **[Blightmud/Blightmud#1474](https://github.com/Blightmud/Blightmud/pull/1474)** - Fix tab-aware output wrapping (2026-08-29)
 - **[openchamber/openchamber#2314](https://github.com/openchamber/openchamber/pull/2314)** - fix: keep GitHub settings mounted during refresh (2026-08-27)
 - **[WordPress/presence-api#263](https://github.com/WordPress/presence-api/pull/263)** - test: cover cleanup without presence table (2026-08-24)
