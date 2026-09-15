@@ -8,9 +8,9 @@
   </p>
 
   <p>
-    <img src="https://img.shields.io/badge/upstream%20merged-259-238636?style=flat-square&logo=git&logoColor=white" alt="259 merged upstream pull requests" />
+    <img src="https://img.shields.io/badge/upstream%20merged-260-238636?style=flat-square&logo=git&logoColor=white" alt="260 merged upstream pull requests" />
     <img src="https://img.shields.io/badge/maintained%20tool%20stars-301-2f81f7?style=flat-square&logo=github&logoColor=white" alt="301 stars across maintained tools" />
-    <img src="https://img.shields.io/badge/public%20contributions%20(12mo)-938-3fb950?style=flat-square&logo=githubactions&logoColor=white" alt="938 public contributions in the last 12 months" />
+    <img src="https://img.shields.io/badge/public%20contributions%20(12mo)-939-3fb950?style=flat-square&logo=githubactions&logoColor=white" alt="939 public contributions in the last 12 months" />
   </p>
 </div>
 
@@ -79,12 +79,12 @@ My public work spans compiler/runtime behavior, Kubernetes policy validation, CL
 
 Automatically refreshed from public GitHub data. Repositories are de-duplicated so one project cannot dominate the list.
 
+- **[jonathanpeppers/dotnes#589](https://github.com/jonathanpeppers/dotnes/pull/589)** - Adopt dpad helpers in directional samples (2026-09-14)
 - **[collective/icalendar#1652](https://github.com/collective/icalendar/pull/1652)** - docs: make RSVP parameter docstring static (2026-09-13)
 - **[marton-balazs-kovacs/tenzing#110](https://github.com/marton-balazs-kovacs/tenzing/pull/110)** - Reorder output actions and clarify URL loading (2026-09-02)
 - **[aganesy/QFAI#507](https://github.com/aganesy/QFAI/pull/507)** - fix(validate,init): track and resolve TDD evidence anchors (2026-09-01)
 - **[777genius/agent-notifications#117](https://github.com/777genius/agent-notifications/pull/117)** - fix(macos): avoid ambiguous Ghostty cwd tab focus (2026-08-30)
 - **[Blightmud/Blightmud#1474](https://github.com/Blightmud/Blightmud/pull/1474)** - Fix tab-aware output wrapping (2026-08-29)
-- **[openchamber/openchamber#2314](https://github.com/openchamber/openchamber/pull/2314)** - fix: keep GitHub settings mounted during refresh (2026-08-27)
 
 ## Building now
 
