@@ -8,7 +8,7 @@
   </p>
 
   <p>
-    <img src="https://img.shields.io/badge/upstream%20merged-98-238636?style=flat-square&logo=git&logoColor=white" alt="98 merged upstream pull requests" />
+    <img src="https://img.shields.io/badge/upstream%20merged-198-238636?style=flat-square&logo=git&logoColor=white" alt="198 merged upstream pull requests" />
     <img src="https://img.shields.io/badge/maintained%20tool%20stars-306-2f81f7?style=flat-square&logo=github&logoColor=white" alt="306 stars across maintained tools" />
     <img src="https://img.shields.io/badge/public%20contributions%20(12mo)-944-3fb950?style=flat-square&logo=githubactions&logoColor=white" alt="944 public contributions in the last 12 months" />
   </p>
