@@ -8,7 +8,7 @@
   </p>
 
   <p>
-    <img src="https://img.shields.io/badge/upstream%20merged-262-238636?style=flat-square&logo=git&logoColor=white" alt="262 merged upstream pull requests" />
+    <img src="https://img.shields.io/badge/upstream%20merged-263-238636?style=flat-square&logo=git&logoColor=white" alt="263 merged upstream pull requests" />
     <img src="https://img.shields.io/badge/maintained%20tool%20stars-306-2f81f7?style=flat-square&logo=github&logoColor=white" alt="306 stars across maintained tools" />
     <img src="https://img.shields.io/badge/public%20contributions%20(12mo)-945-3fb950?style=flat-square&logo=githubactions&logoColor=white" alt="945 public contributions in the last 12 months" />
   </p>
@@ -79,12 +79,12 @@ My public work spans compiler/runtime behavior, Kubernetes policy validation, CL
 
 Automatically refreshed from public GitHub data. Repositories are de-duplicated so one project cannot dominate the list.
 
+- **[carlos-emr/carlos#3406](https://github.com/carlos-emr/carlos/pull/3406)** - fix: refresh job types through DataTables API (2026-10-26)
 - **[workato-devs/wk#104](https://github.com/workato-devs/wk/pull/104)** - fix(workspace): preserve audit log context (2026-10-16)
 - **[pavanvamsi3/copilot-lens#198](https://github.com/pavanvamsi3/copilot-lens/pull/198)** - chore: add ESLint quality gate (2026-10-13)
 - **[erorplex/claude-desktop-profiles-macos#8](https://github.com/erorplex/claude-desktop-profiles-macos/pull/8)** - Preserve working folders and Git sessions across account switches (2026-10-04)
 - **[OpenLightingProject/open-fixture-library#6033](https://github.com/OpenLightingProject/open-fixture-library/pull/6033)** - Fix broken U'King manual links (2026-09-23)
 - **[LittleBigRefresh/refresh-web#223](https://github.com/LittleBigRefresh/refresh-web/pull/223)** - Hide PSP player count in recent activity (2026-09-20)
-- **[jonathanpeppers/dotnes#589](https://github.com/jonathanpeppers/dotnes/pull/589)** - Adopt dpad helpers in directional samples (2026-09-14)
 
 ## Building now
 
